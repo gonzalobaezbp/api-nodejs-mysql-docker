@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const dbCon = require('express-myconnection');
 const routes = require('./routes');
 const config = require('./config');
-const dotenv = require('dotenv').config();
+// const dotenv = require('dotenv').config();
 const app = express();
 
 
