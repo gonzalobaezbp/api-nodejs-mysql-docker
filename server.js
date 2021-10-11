@@ -10,6 +10,6 @@ app.get('/welcome', (req, res) => {
     res.send('Welcome to my API')
 })
 
-app.listen(app.get('port'), () => {
+app.listen(process.env.PORT || app.get('port'), () => {
     console.log('Server running on port: ', app.get('port'));
 })
