@@ -22,7 +22,7 @@ console.log( dbOpt );
 app.use(dbCon(mysql, dbOpt, 'single'));
 app.use(express.json());
 
-app.listen(app.get('port'), () => {
+app.listen(process.env.PORT || app.get('port'), () => {
     console.log('Server running on port: ', app.get('port'));
 });
 
