@@ -6,7 +6,7 @@ app.set('port', 3000)
 
 app.use(express.json())
 
-app.get('/welcome', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Welcome to my API')
 })
 
