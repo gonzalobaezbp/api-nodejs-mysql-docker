@@ -7,7 +7,7 @@ const dotenv = require('dotenv').config();
 const app = express();
 
 
-const dbOpt = { ...config }
+const dbOpt = { ...config };
 
 app.set('port', 3000);
 
