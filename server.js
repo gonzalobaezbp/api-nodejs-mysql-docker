@@ -2,12 +2,13 @@ const express = require('express');
 const mysql = require('mysql');
 const dbCon = require('express-myconnection');
 const routes = require('./routes');
+
 const dbOpt = {
-    host: 'wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-    port: '3306',
-    user: 'ucw1sed9qstpb6f0',
-    password: 'b8qcbs2hdlj675za',
-    database: 'm6kishbv9ddh2vjy'
+    host: process.env.HOST,
+    port: process.env.PORT,
+    user: process.env.USER,
+    password: process.env.PASS,
+    database: process.env.DBNM
 };
 
 const app = express();

@@ -1,0 +1,31 @@
+###
+GET https://api-nodejs-express-mysql.herokuapp.com/api HTTP/1.1
+
+###
+GET https://api-nodejs-express-mysql.herokuapp.com/api/1 HTTP/1.1
+
+
+
+###
+POST https://api-nodejs-express-mysql.herokuapp.com/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "first_name": "Jota",
+    "last_name": "Be",
+    "user_name": "jotabe",
+    "email": "jotabe@example.com",
+    "access_level": 1,
+    "access_card": 444555
+}
+
+###
+PUT https://api-nodejs-express-mysql.herokuapp.com/api/101 HTTP/1.1
+Content-Type: application/json
+
+{
+    "access_level": 5
+}
+
+###
+DELETE https://api-nodejs-express-mysql.herokuapp.com/api/101 HTTP/1.1
