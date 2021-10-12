@@ -1,9 +1,9 @@
-// const dotenv = require('dotenv').config();
+const dotenv = require('dotenv').config();
 
 module.exports = {
-  host: 'wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-  port: '3306',
-  user: 'ucw1sed9qstpb6f0',
-  password: 'b8qcbs2hdlj675za',
-  database: 'm6kishbv9ddh2vjy'
+  host: process.env.host || 'localhost',
+  port: process.env.port || '3306',
+  user: process.env.user || 'root',
+  password: process.env.password || 'root',
+  database: process.env.database || 'DB_TEST'
 }
