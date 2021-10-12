@@ -99,3 +99,8 @@ This is an example of how to list things you need to use the software and how to
   1. We created a new file with extension `file_name.http` in this case you can see the archive `test_deploy_api.http` (service run internet) or `test_local_api.http` (service run local)
 
   2. In the file `test_deploy_api.http` you can click en _Send Request_ for test a CRUD methods and you can see the results a new tab.
+
+8. In the following link you can test the API on internet:
+   ```
+   https://api-nodejs-express-mysql.herokuapp.com/api
+   ```
