@@ -2,7 +2,7 @@
 GET https://api-nodejs-express-mysql.herokuapp.com/api HTTP/1.1
 
 ###
-GET https://api-nodejs-express-mysql.herokuapp.com/api/1 HTTP/1.1
+GET https://api-nodejs-express-mysql.herokuapp.com/api/101 HTTP/1.1
 
 
 
